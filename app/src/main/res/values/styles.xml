@@ -1,0 +1,40 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar"></style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/Widget.ActionBar</item>
+        <item name="android:actionDropDownStyle">@style/Widget.DropDownNav</item>
+        <item name="android:windowDisablePreview">true</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+
+        <!-- Material Theme -->
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="21">@android:color/black</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@android:color/black</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="21">true</item>
+        <item name="android:windowContentTransitions" tools:targetApi="21">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap" tools:targetApi="21">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap" tools:targetApi="21">true</item>
+        <item name="android:windowSharedElementEnterTransition" tools:targetApi="21">
+            @android:transition/move
+        </item>
+        <item name="android:windowSharedElementExitTransition" tools:targetApi="21">
+            @android:transition/move
+        </item>
+
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ab_back_mtrl_am_alpha</item>
+
+    </style>
+
+
+
+</resources>
